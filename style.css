@@ -7,7 +7,7 @@
 ██       ██████  ██   ████    ██    ███████ 
 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Hepta+Slab|Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap");
@@ -56,13 +56,13 @@ html {
 
 :root {
   --primary-text-color: #222;
-  --accent-color: #555;
+  --accent-color: rgb(0, 0, 0);
   --hyperlink-color: #333;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Staatliches", cursive;
-  --off-white: #f8f8ff;
+  --body-typeface: 'Lora', serif;
+  --heading-typeface: 'Lora', serif;
+  --off-white: #ffffff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
   --alice-blue: #f0f8ff;
@@ -120,7 +120,7 @@ h1 {
   font-size: 2rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--baby-powder);
+  color: var(--accent-color); 
 }
 
 h2 {
@@ -452,6 +452,8 @@ p {
 
   h1 {
     font-size: 4.275rem;
+    line-height: 1.3em;
+    }
   }
 
   h2 {
