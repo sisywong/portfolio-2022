@@ -3,12 +3,13 @@
 
 <head>
   <title>Simple Creative Portfolio 2022 | Work Page</title>
-  <meta name="description" content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
+  <meta name="description"
+    content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:image" content="screenshot.jpg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d300c2ea15.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -24,7 +25,7 @@
     </header>
     <div class="hero-headline-wrapper">
       <h1 class="hero-headline stroke-shadow">Hello, I'm Sisy Wong, a branding and packaging
-        designer!</h1> 
+        designer!</h1>
     </div>
     <footer class="hero-footer">
       <ul class="hero-footer-navigation">
@@ -45,18 +46,18 @@
         </li>
         <li class="work-page-grid-item">
           <a href="project-1.html">
-          <figure>
-            <img src="images/sisy-wong-forest-branding-menu-design.jpg" alt="Describe your project">
-          </figure>
-        </a>
+            <figure>
+              <img src="images/sisy-wong-forest-branding-menu-design.jpg" alt="Describe your project">
+            </figure>
+          </a>
         </li>
         <li class="work-page-grid-item"><a href="project-1.html">
-          <figure>
-            <img src="images/sisy-wong-ice-cream-factory-branding-project.png" alt="Describe your project">
-          </figure>
-        </a>
+            <figure>
+              <img src="images/sisy-wong-ice-cream-factory-branding-project.png" alt="Describe your project">
+            </figure>
+          </a>
         </li>
-       
+
       </ul>
     </section>
   </main>
@@ -64,58 +65,58 @@
   <ul class="global-footer">
     <li class="footer-item-1">
       <h2>About me</h2>
-      <p>Hi, I’m a super-organized person and was born and grew up in Hong Kong, I’m now lived in Vancouver. I like to schedule my work. You will find all my stuff arranged in order, including my desktop. I’m also a good listener who will never interrupt your speech and would be glad to input your feedback to end up with the best possible outcome. In my leisure time, you would find her enjoying life by either doing things about animate or trying different things like travelling, karting and so on.
+      <p class="footer-bio">Hi, I’m a super-organized person and was born and grew up in Hong Kong, I’m now lived in
+        Vancouver. I like to
+        schedule my work. You will find all my stuff arranged in order, including my desktop. I’m also a good listener
+        who will never interrupt your speech and would be glad to input your feedback to end up with the best possible
+        outcome. In my leisure time, you would find her enjoying life by either doing things about animate or trying
+        different things like travelling, karting and so on.
       </p>
-    </li>
-    <li class="footer-item-2">
-      <h2>Awards &amp; Recognition</h2>
-      <ul class="awards-list">
-        <li class="award-item"><a href="#">Award goes here</a></li>
-        <li class="award-item"><a href="#">Award goes here</a></li>
-        <li class="award-item"><a href="#">Award goes here</a></li>                
-      </ul>
     </li>
     <li class="footer-item-3">
       <h2>Contact &amp; Social</h2>
       <ul class="socials-list">
         <li class="social-item"><a href="https://www.instagram.com/scarlet_sisy/">Insta</a></li>
         <li class="social-item"><a href="https://www.linkedin.com/in/sisy-wong-1b79a61a6/">LinkedIn</a></li>
-        <li class="social-item"><a href="https://www.behance.net/sisywong">Behance</a></li>                
+        <li class="social-item"><a href="https://www.behance.net/sisywong">Behance</a></li>
       </ul>
-    </li>    
+    </li>
     <li class="footer-item-4">
       <p><a href="#top">Smooth scroll to the top</a></p>
       <p>&copy; 2022. Made with ❤ and CSS Grid by Sisy Wong.</p>
     </li>
   </ul>
 
-    <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>  
+  <div id="myID" class="bottomMenu hide"><a href="#">Back to top</a></div>
 
-    <div id="ghostanimation" class="ghost"><img src="cactus.svg" /></div>
-    <script type="text/javascript">function ShowHideDiv(btnGhost) {
-      var GhostStyle = document.getElementById("ghostanimation");
-if (btnGhost.value == "Hide Ghost") {
-          GhostStyle.style.display = "none";
-          btnGhost.value = "Play Ghost";
-      } else {
-          GhostStyle.style.display = "block";
-          btnGhost.value = "Hide Ghost";
-      }
-  }</script>   
+  <div id="ghostanimation" class="ghost"><img src="cactus.svg" /></div>
   <script type="text/javascript">
-  myID = document.getElementById("myID");
-
-var myScrollFunc = function () {
-    var y = window.scrollY;
-    if (y >= 800) {
-        myID.className = "bottomMenu show"
-    } else {
-        myID.className = "bottomMenu hide"
+    function ShowHideDiv(btnGhost) {
+      var GhostStyle = document.getElementById("ghostanimation");
+      if (btnGhost.value == "Hide Ghost") {
+        GhostStyle.style.display = "none";
+        btnGhost.value = "Play Ghost";
+      } else {
+        GhostStyle.style.display = "block";
+        btnGhost.value = "Hide Ghost";
+      }
     }
-};
+  </script>
+  <script type="text/javascript">
+    myID = document.getElementById("myID");
 
-window.addEventListener("scroll", myScrollFunc);</script> 
-  
+    var myScrollFunc = function () {
+      var y = window.scrollY;
+      if (y >= 800) {
+        myID.className = "bottomMenu show"
+      } else {
+        myID.className = "bottomMenu hide"
+      }
+    };
+
+    window.addEventListener("scroll", myScrollFunc);
+  </script>
+
 </body>
 
 </html>
